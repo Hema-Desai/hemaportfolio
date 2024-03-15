@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="mediaqueries.css"/>
+    </head>
+    <body>
+      <a href="./#" class="logo-button">
+        <img src="./assets/HEMA-logo.png" alt="logo" style="width: 100px; height: auto;">
+        </a>
+    <br>
+    <nav id="desktop-nav">
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+        <nav id ="hamburger-nav">
+            <div class="logo">Hema Desai</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()"> 
+                   <span></span> 
+                   <span></span> 
+                   <span></span> 
+                   
+                </div>
+                <div class="menu-links ">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+
+                    <li><a href="projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </div>
+        </nav>
+        <section id="profile">
+            <div class="section__pic-container">
+                <img src="./assets/profile-pic.png" alt="Hema Desai Profile picture" />
+            </div>
+            <div class="section__text">
+                <p class ="section__text__p1"">Hello I'm</p>
+                <h1 class="title">Hema Desai</h1>
+                <p class="section__text__p2">Graduate student at UTA</p>
+                <div class="btn-container">
+                    <button 
+                    class="btn btn-color-2"
+                    onclick="window.open('./assets/resume-example.pdf')">
+                    Download CV
+                    </button>
+                    <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                        Contact Info
+                    </button>
+            </div><br>
+            
+            <div id="social-container">
+                <img 
+                src="./assets/linkedin.png" 
+                alt="My linkedin profile"
+                class="icon" 
+                onclick="location.href='https://www.linkedin.com/in/hema-desai96/'"
+                />
+                <img 
+                src="./assets/github.png" 
+                alt="My Github profile" 
+                class="icon" 
+                onclick="location.href='https:github.com/Hema-Desai'"
+                />
+                </div>
+                </div>
+                </section>
+                <section id="about">
+                    <p class="section__text__p1">Get To Know More</p>
+                    <h1 class="title">About Me</h1>
+                    <div class="section-container">
+                        <div class="section__pic-container">
+                            <img
+                            src="./assets/about-pic6.png"
+                            alt="Profile picture"
+                            class="about-pic"
+                            />
+                    </div>
+                    <div class ="about-details-container">
+                        <div class="about-containers">
+                            <div class="details-container">
+                                <img
+                                src="./assets/experience.png"
+                                alt="Experience icon"
+                                class="icon"
+                                />
+                            <h3>Experience</h3>
+                            <p>4+ years <br>Cloud Engineer</p>
+                            </div>
+                            <div class="details-container">
+                                <img
+                                src="./assets/education.png"
+                                alt="Education icon"
+                                class="icon"
+                                />
+                            <h3>Education</h3>
+                            <p>Master's in Computer science</p>
+                            </div>
+
+                            </div>
+                            <div class="text-container">
+                                <p>
+                                    Welcome to my corner of the digital universe! I'm a graduate student with a passion for technology, specializing in Databases and Software Engineering. With four years of hands-on experience in cloud infrastructure engineering, I've delved deep into a diverse array of technologies, from the intricacies of Java and Python to the robustness of SQL and MySQL. My journey has led me through the dynamic landscapes of Microsoft Azure and Google Cloud Platform, where I've honed my skills in infrastructure and explored the limitless possibilities of web technologies like HTML, CSS, JavaScript, React JS, Node JS, and Bootstrap. I'm thrilled to connect with fellow enthusiasts, industry leaders, and forward-thinking organizations who share my passion for technology-driven solutions. Whether it's collaborating on innovative projects, engaging in thought-provoking discussions, or exploring exciting opportunities, I'm here to embark on this journey. Let's connect and pave the way for a future filled with groundbreaking advancements and endless possibilities!
+                                </div>
+                    </div>  
+                </div>  
+                <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <br>
+    <br>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Programming languages</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Python</h3>
+    
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Java</h3>
+                
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>C</h3>
+    
+                  </div>
+                </article>
+                
+              </div>
+            </div>
+            <div class="details-container">
+              <h2 class="experience-sub-title">Web Technologies</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>HTML</h3>
+                    
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>CSS</h3>
+                    
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Java<br> Script</h3>
+                    
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>PHP</h3>
+                   
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>React</h3>
+                    
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Node.js</h3>
+                    
+                  </div>
+                </article>
+                
+              </div>
+            </div>
+            <div class="details-container">
+                <h2 class="experience-sub-title">Database Technologies</h2>
+                <div class="article-container">
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>SQL</h3>
+                      
+                    </div>
+                  </article>
+                  
+                 
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Mongo DB</h3>
+                      
+                    </div>
+                  </article>
+
+
+                </div>
+              </div>
+              <div class="details-container">
+                <h2 class="experience-sub-title">Software's</h2>
+                <div class="article-container">
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Android Studio</h3>
+                      
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Anaconda</h3>
+                      
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Eclipse</h3>
+                      
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Oracle</h3>
+                     
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>VS code</h3>
+                     
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div class="details-container">
+                <h2 class="experience-sub-title">Cloud Technologies</h2>
+                <div class="article-container">
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Microsoft Azure</h3>
+                      
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Google Cloud Platform</h3>
+                      
+                    </div>
+                </div>
+
+              
+                  </article>
+                  
+
+
+                </div>
+              </div>
+              
+          </div>
+        </div>
+        
+      </section>
+ 
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/project-1.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+                <div class="project-description">
+                    Led a project focused on precise diabetes case classification employing the K-Nearest Neighbours (KNN) algorithm, yielding an impressive 81% 
+                    accuracy rate during model training on a test set containing 768 samples.
+                    
+                </div>
+              </div>
+              <h2 class="experience-sub-title project-title">Diabetes-Classification using K-Nearest Neighbour</h2>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/project-2.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+                <div class="project-description">
+                  
+Designed academic program management website with user role design and features like program mapping and analytics. It facilitates seamless communication among students, instructors, administrators, and coordinators.
+                </div>
+              </div>
+              <h2 class="experience-sub-title project-title">Skillfy-Academic Program Management Website</h2>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/project-3.png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+                <div class="project-description">
+                    Developed a robust database model from scratch, resulting in a 25% increase in bus availability and a 20% reduction in transit 
+operation delays Identified key patterns that supported well-informed decision-making, positively influencing overall transit efficiency.
+                </div>
+              </div>
+              <h2 class="experience-sub-title project-title">BMTC Connect for efficient transit</h2>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section>
+      
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:desaihemasai96@gmail.com">desaihemasai96@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/hema-desai96/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+     
+    </footer>   
+
+        <script src="script.js"></script>
+    
+    </body>
+</html>
